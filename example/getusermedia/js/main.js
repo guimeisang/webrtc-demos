@@ -1,7 +1,9 @@
 'use strict';
 
+
+
 const constraints = window.constraints = {
-    audio: false,
+    audio: true,
     video: true
 };
 
@@ -30,7 +32,7 @@ function errorMsg(msg, error) {
     const errorElement = document.querySelector('#errorMsg');
     errorElement.innerHTML += `<p>${msg}</p>`;
     if (typeof error !== 'undefined') {
-      console.error(error);
+      console.log(error);
     }
   }
 

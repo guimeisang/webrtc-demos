@@ -9,3 +9,8 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API/Taking_still_photos
 
 可以参考这个文档来实现：(这个文章写的很好)
 - https://blog.coding.net/blog/getting-started-with-webrtc 
+
+
+### get的点
+- adapter.js库主要是帮助webrtc跨浏览器；
+    - 
